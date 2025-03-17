@@ -1,0 +1,47 @@
+﻿@model List<Product>
+
+@section title {
+<h3>商品</h3>
+}
+
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>类别名称</th>
+                <th>商品名称</th>
+                <th>价格</th>
+                <th>数量</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Category?.Name</td>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td>@product.Quantity</td>
+                    <td><a class="btn btn-link" asp-controller="products" asp-action="edit" asp-route-id="@product.ProductId">编辑</a></td>
+                    <td><a class="btn btn-link" asp-controller="products" asp-action="delete" asp-route-id="@product.ProductId" onclick="return confirmDelete()">删除</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    
+}
+
+<br />
+<a class="btn btn-primary" asp-controller="products" asp-action="add">添加</a>
+
+@section Scripts {
+    <script>
+        function confirmDelete(){
+            return confirm("确定删除这个商品吗？");
+        }
+    </script>
+}
