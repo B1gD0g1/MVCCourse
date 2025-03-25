@@ -1,0 +1,113 @@
+﻿@model SalesViewModel
+
+@section title {
+    <div class="row">
+        <div class="col-7"><h3>Cashier's Console 收银员控制台</h3></div>
+        <div class="col-2"><label for="cashier">Cashier Name:</label></div>
+        <div class="col-3">
+        @*Display Cashier's name here*@
+        </div>
+    </div>
+}
+
+<br />
+<div class="row">
+    <div class="col-4">
+        <div class="text-danger" asp-validation-summary="All" ></div>
+
+        @*Category selection 类别选择*@
+        <select asp-for="SelectedCategoryId" class="form-control">
+            <option>- 请选择 -</option>
+
+            @if (Model.Categories != null && Model.Categories.Count() > 0)
+            {
+                @foreach (var cat in Model.Categories)
+                {
+                    <option value="@cat.CategoryId">@cat.Name</option>
+                }
+            }
+        </select>
+        <br />
+        <div id="productsPartial">
+            @*Product List 产品列表*@
+        </div>
+        <br />
+        <div id="productDetailPartial">
+            @*Product Details 产品详细信息*@
+        </div>
+
+        @*Sales form 销售表格*@
+        <form method="post" asp-controller="sales" asp-action="sell" id="formSale">
+            <input asp-for="SelectedProductId" type="hidden" />
+            <div class="mb-3">
+                <label asp-for="QuantityToSell"></label>
+                <input asp-for="QuantityToSell" class="form-control" type="number" />
+            </div>
+            <br />
+            <div class="mb-3">
+                <input type="submit" class="btn btn-primary" value="Submit" />
+            </div>
+        </form>
+
+    </div>
+    <div class="col">
+        @*List of transactions 交易清单*@
+
+        @await Component.InvokeAsync("Transactions", "Cashier1")
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(function() {
+
+            //初始化表格
+            $("#formSale").hide();
+            $("#QuantityToSell").val("");
+
+            //Load thr products if category is already selected 如果已经选择了类别，则加载产品
+            var selectedCategoryId = $("#SelectedCategoryId").val();
+            if (selectedCategoryId > 0) {
+                LoadProducts(selectedCategoryId);
+            }
+
+            //处理类别选择
+            $("#SelectedCategoryId").on("change", function() {
+                LoadProducts($(this).val());
+            });
+
+            //处理产品选择
+            $('#productsPartial').on('click', '.product-row', function() {
+                //高亮选中
+                $('.product-row').removeClass('highlight');
+                $(this).addClass('highlight');
+
+                //Get The product ID from the "product-id" attribute of the clicked row
+                //从所单击行的“product- ID”属性获取产品ID
+                var productId = $(this).attr('product-id');
+
+                //Load the details of the product in a partial view
+                //在部分视图中加载产品的详细信息
+                $("#productDetailPartial").load("/sales/SellProductPartial", { productId: productId});
+
+                if (productId > 0) {
+                    $("#SelectedProductId").val(productId);
+                    $("#formSale").show();
+                }
+                else {
+                    $("#SelectedProductId").val("");
+                    $("#formSale").hide();
+                }
+
+            });
+
+        });
+
+        function LoadProducts(categoryId) {
+            $("#productsPartial").load("/products/ProductsByCategoryPartial", { categoryId: categoryId });
+                $("#productDetailPartial").html("");
+                $("#formSale").hide();
+        }
+
+    </script>
+}

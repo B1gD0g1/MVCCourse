@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>超市管理系统 Supermarket Management</title>
     <link rel="stylesheet" href="~/lib/bootstrap框架/css/bootstrap.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -21,11 +22,18 @@
                             <a class="nav-link text-dark" asp-controller="home" asp-action="index">主页</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="sales" asp-action="index">出售</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="categories" asp-action="index">类别</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="products" asp-action="index">商品</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="transactions" asp-action="index">交易统计</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -40,6 +48,12 @@
             @RenderBody()
         </div>
     </div>
+    @* <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.0/jquery.min.js"
+            integrity="sha384-NXgwF8Kv9SSAr+jemKKcbvQsz+teULH/a5UNJvZc6kP47hZgl62M1vGnw6gHQhb1"
+            crossorigin="anonymous"></script> *@
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" 
+            integrity="sha384-NXgwF8Kv9SSAr+jemKKcbvQsz+teULH/a5UNJvZc6kP47hZgl62M1vGnw6gHQhb1" 
+            crossorigin="anonymous"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

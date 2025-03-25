@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M1OOLM4QQKBBMSUtZl4nvyIxywNb3oD7p1ZHuvVENto=",
+  "Hash": "2530tPzYGxLzCd43eNHLi78RJPDSGVA1+koI/e3BsOc=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "E:\\C#\\MVCCourse\\WebApp\\wwwroot\\css\\site.css",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\C#\\MVCCourse\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2t2za7kc28",
+      "Integrity": "9v7dGaLDKVFMU6vDKv//vLmYlG8jHc1TDKnA3xqnEDY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
     {
       "Identity": "E:\\C#\\MVCCourse\\WebApp\\wwwroot\\lib\\bootstrap框架\\css\\bootstrap.css",
       "SourceId": "WebApp",
@@ -942,6 +963,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/site.2t2za7kc28.css",
+      "AssetFile": "E:\\C#\\MVCCourse\\WebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9v7dGaLDKVFMU6vDKv//vLmYlG8jHc1TDKnA3xqnEDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:56:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2t2za7kc28"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9v7dGaLDKVFMU6vDKv//vLmYlG8jHc1TDKnA3xqnEDY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "E:\\C#\\MVCCourse\\WebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9v7dGaLDKVFMU6vDKv//vLmYlG8jHc1TDKnA3xqnEDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:56:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9v7dGaLDKVFMU6vDKv//vLmYlG8jHc1TDKnA3xqnEDY="
+        }
+      ]
+    },
     {
       "Route": "lib/bootstrap框架/css/bootstrap.css",
       "AssetFile": "E:\\C#\\MVCCourse\\WebApp\\wwwroot\\lib\\bootstrap框架\\css\\bootstrap.css",

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Transaction>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>收银员名字</th>
+            <th>产品名称</th>
+            <th>日期时间</th>
+            <th>原数量</th>
+            <th>出售数量</th>
+            <th>剩余数量</th>
+            <th>价格总额</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tran in Model)
+        {
+            <tr>
+                <td>@tran.CashierName</td>
+                <td>@tran.ProductName</td>
+                <td>@tran.TimeStamp.ToString("G")</td>
+                <td>@tran.BeforeQty</td>
+                <td>@tran.SoldQty</td>
+                <td>@(tran.BeforeQty - tran.SoldQty)</td>
+                <td>@(string.Format("{0:c}", tran.SoldQty * tran.Price))</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,94 @@
+﻿@model TransactionsViewModel
+
+@section title {
+    <h3>交易统计</h3>
+}
+
+<div id="printarea">
+
+    <form method="post" asp-controller="transactions" asp-action="search" id="transactions">
+        <div class="row">
+            <div class="col-2">
+                <label asp-for="CashierName"></label>
+                <input type="text" class="form-control" asp-for="CashierName" />
+            </div>
+            <div class="col-3">
+                <label asp-for="StartDate"></label>
+                <input type="date" class="form-control" asp-for="StartDate" />
+            </div>
+            <div class="col-3">
+                <label asp-for="EndDate"></label>
+                <input type="date" class="form-control" asp-for="EndDate" />
+            </div>
+            <div class="col-2">
+                <label>&nbsp;</label>
+                <button type="submit" class="btn btn-primary form-control">搜索</button>
+            </div>
+            <div class="col-2">
+                <label>&nbsp;</label>
+                <button id="print" type="button" class="btn btn-primary form-control">打印</button>
+            </div>
+        </div>
+    </form>
+    <br />
+
+    @if (Model.Transactions != null)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>日期时间</th>
+                    <th>收银员名字</th>
+                    <th>产品名称</th>
+                    <th>原数量</th>
+                    <th>出售数量</th>
+                    <th>剩余数量</th>
+                    <th>单价</th>
+                    <th>价格总额</th>
+                <tr>
+            </thead>
+            <tbody>
+                @foreach (var tran in Model.Transactions)
+                {
+                    <tr>
+                        <td>@tran.TimeStamp.ToString("G")</td>
+                        <td>@tran.CashierName</td>
+                        <td>@tran.ProductName</td>
+                        <td>@tran.BeforeQty</td>
+                        <td>@tran.SoldQty</td>
+                        <td>@(tran.BeforeQty - tran.SoldQty)</td>
+                        <td style="text-align:right">@(string.Format("{0:c}", tran.Price))</td>
+                        <td style="text-align:right">@(string.Format("{0:c}", tran.SoldQty * tran.Price))</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">&nbsp;</td>
+                    <td style="text-align:right">
+                        <b>总计：</b>
+                    </td>
+                    <td style="text-align:right">
+                        <b>
+                            @(string.Format("{0:c}", Model.Transactions.Sum(x => x.Price * x.SoldQty)))
+                        </b>
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+    }
+
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+
+            //处理打印
+            $('#print').on('click', function () {
+                window.print();
+            });
+        });
+    </script>
+}

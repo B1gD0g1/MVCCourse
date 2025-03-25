@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "E:\\C#\\MVCCourse\\WebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
       "Id": "E:\\C#\\MVCCourse\\WebApp\\wwwroot\\lib\\bootstrap框架\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap框架\\css\\bootstrap-grid.css"
     },

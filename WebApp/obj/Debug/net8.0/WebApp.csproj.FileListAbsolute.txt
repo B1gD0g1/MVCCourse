@@ -30,3 +30,4 @@ E:\C#\MVCCourse\WebApp\obj\Debug\net8.0\ref\WebApp.dll
 E:\C#\MVCCourse\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cache
 E:\C#\MVCCourse\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cs
 E:\C#\MVCCourse\WebApp\bin\Debug\net8.0\WebApp.staticwebassets.runtime.json
+E:\C#\MVCCourse\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json

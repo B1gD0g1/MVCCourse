@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Product>
+
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>产品名称</th>
+                <th>数量</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr class="product-row" product-id = "@product.ProductId">
+                    <td>@product.Name</td>
+                    <td>@product.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -48,7 +48,7 @@
         }
 
 
-        public static Product? GetProductById(int productId, bool loadCategory = false)
+        public static Product? GetProductsById(int productId, bool loadCategory = false)
         {
             var product = _products.FirstOrDefault(x => x.ProductId == productId);
             if (product != null)
@@ -94,6 +94,16 @@
             {
                 _products.Remove(product);
             }
+        }
+
+        public static List<Product> GetProductsByCategoryId(int categoryId)
+        {
+            var products = _products.Where(x => x.CategoryId == categoryId);
+
+            if (products != null)
+                return products.ToList();
+            else
+                return new List<Product>();
         }
     }
 }
