@@ -4,6 +4,212 @@
     "E:\\C#\\MVCCourse\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
+    "E:\\C#\\MVCCourse\\CoreBusiness\\CoreBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\MVCCourse\\CoreBusiness\\CoreBusiness.csproj",
+        "projectName": "CoreBusiness",
+        "projectPath": "E:\\C#\\MVCCourse\\CoreBusiness\\CoreBusiness.csproj",
+        "packagesPath": "C:\\Users\\Ben_\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\MVCCourse\\CoreBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ben_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#\\MVCCourse\\Plugins\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\MVCCourse\\Plugins\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj",
+        "projectName": "Plugins.DataStore.InMemory",
+        "projectPath": "E:\\C#\\MVCCourse\\Plugins\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj",
+        "packagesPath": "C:\\Users\\Ben_\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\MVCCourse\\Plugins\\Plugins.DataStore.InMemory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ben_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\C#\\MVCCourse\\CoreBusiness\\CoreBusiness.csproj": {
+                "projectPath": "E:\\C#\\MVCCourse\\CoreBusiness\\CoreBusiness.csproj"
+              },
+              "E:\\C#\\MVCCourse\\UseCases\\UseCases.csproj": {
+                "projectPath": "E:\\C#\\MVCCourse\\UseCases\\UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#\\MVCCourse\\UseCases\\UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#\\MVCCourse\\UseCases\\UseCases.csproj",
+        "projectName": "UseCases",
+        "projectPath": "E:\\C#\\MVCCourse\\UseCases\\UseCases.csproj",
+        "packagesPath": "C:\\Users\\Ben_\\.nuget\\packages\\",
+        "outputPath": "E:\\C#\\MVCCourse\\UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ben_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\C#\\MVCCourse\\CoreBusiness\\CoreBusiness.csproj": {
+                "projectPath": "E:\\C#\\MVCCourse\\CoreBusiness\\CoreBusiness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\C#\\MVCCourse\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +237,17 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\C#\\MVCCourse\\CoreBusiness\\CoreBusiness.csproj": {
+                "projectPath": "E:\\C#\\MVCCourse\\CoreBusiness\\CoreBusiness.csproj"
+              },
+              "E:\\C#\\MVCCourse\\Plugins\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj": {
+                "projectPath": "E:\\C#\\MVCCourse\\Plugins\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj"
+              },
+              "E:\\C#\\MVCCourse\\UseCases\\UseCases.csproj": {
+                "projectPath": "E:\\C#\\MVCCourse\\UseCases\\UseCases.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "E:\\C#\\MVCCourse\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|e:\\c#\\mvccourse\\usecases\\categoriesusecases\\addcategoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|solutionrelative:usecases\\categoriesusecases\\addcategoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|e:\\c#\\mvccourse\\usecases\\datastoreplugininterfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|solutionrelative:usecases\\datastoreplugininterfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|e:\\c#\\mvccourse\\webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|e:\\c#\\mvccourse\\usecases\\categoriesusecases\\editcategoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|solutionrelative:usecases\\categoriesusecases\\editcategoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|e:\\c#\\mvccourse\\usecases\\categoriesusecases\\deletecategoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|solutionrelative:usecases\\categoriesusecases\\deletecategoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|e:\\c#\\mvccourse\\usecases\\categoriesusecases\\viewselectedcategoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|solutionrelative:usecases\\categoriesusecases\\viewselectedcategoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|e:\\c#\\mvccourse\\usecases\\categoriesusecases\\viewcategoriesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC59526E-1A47-40F2-931D-9601809BAB58}|UseCases\\UseCases.csproj|solutionrelative:usecases\\categoriesusecases\\viewcategoriesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770C624E-C079-4297-B1E6-7FAEFE8A715E}|CoreBusiness\\CoreBusiness.csproj|e:\\c#\\mvccourse\\corebusiness\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770C624E-C079-4297-B1E6-7FAEFE8A715E}|CoreBusiness\\CoreBusiness.csproj|solutionrelative:corebusiness\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770C624E-C079-4297-B1E6-7FAEFE8A715E}|CoreBusiness\\CoreBusiness.csproj|e:\\c#\\mvccourse\\corebusiness\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770C624E-C079-4297-B1E6-7FAEFE8A715E}|CoreBusiness\\CoreBusiness.csproj|solutionrelative:corebusiness\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770C624E-C079-4297-B1E6-7FAEFE8A715E}|CoreBusiness\\CoreBusiness.csproj|e:\\c#\\mvccourse\\corebusiness\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770C624E-C079-4297-B1E6-7FAEFE8A715E}|CoreBusiness\\CoreBusiness.csproj|solutionrelative:corebusiness\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|e:\\c#\\mvccourse\\webapp\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|e:\\c#\\mvccourse\\webapp\\views\\transactions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\transactions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -45,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|e:\\c#\\mvccourse\\webapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|e:\\c#\\mvccourse\\webapp\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7E82A58-3420-4556-A13D-9E61AD9DC45E}|WebApp\\WebApp.csproj|e:\\c#\\mvccourse\\webapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -154,7 +194,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,7 +202,132 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApp.csproj",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\WebApp.csproj",
+              "RelativeDocumentMoniker": "WebApp\\WebApp.csproj",
+              "ToolTip": "E:\\C#\\MVCCourse\\WebApp\\WebApp.csproj",
+              "RelativeToolTip": "WebApp\\WebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-26T06:17:50.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddCategoryUseCase.cs",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\UseCases\\CategoriesUseCases\\AddCategoryUseCase.cs",
+              "RelativeDocumentMoniker": "UseCases\\CategoriesUseCases\\AddCategoryUseCase.cs",
+              "ToolTip": "E:\\C#\\MVCCourse\\UseCases\\CategoriesUseCases\\AddCategoryUseCase.cs",
+              "RelativeToolTip": "UseCases\\CategoriesUseCases\\AddCategoryUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T06:16:25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteCategoryUseCase.cs",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\UseCases\\CategoriesUseCases\\DeleteCategoryUseCase.cs",
+              "RelativeDocumentMoniker": "UseCases\\CategoriesUseCases\\DeleteCategoryUseCase.cs",
+              "ToolTip": "E:\\C#\\MVCCourse\\UseCases\\CategoriesUseCases\\DeleteCategoryUseCase.cs",
+              "RelativeToolTip": "UseCases\\CategoriesUseCases\\DeleteCategoryUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T06:09:59.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditCategoryUseCase.cs",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\UseCases\\CategoriesUseCases\\EditCategoryUseCase.cs",
+              "RelativeDocumentMoniker": "UseCases\\CategoriesUseCases\\EditCategoryUseCase.cs",
+              "ToolTip": "E:\\C#\\MVCCourse\\UseCases\\CategoriesUseCases\\EditCategoryUseCase.cs",
+              "RelativeToolTip": "UseCases\\CategoriesUseCases\\EditCategoryUseCase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T06:07:06.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewSelectedCategoryUseCase.cs",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\UseCases\\CategoriesUseCases\\ViewSelectedCategoryUseCase.cs",
+              "RelativeDocumentMoniker": "UseCases\\CategoriesUseCases\\ViewSelectedCategoryUseCase.cs",
+              "ToolTip": "E:\\C#\\MVCCourse\\UseCases\\CategoriesUseCases\\ViewSelectedCategoryUseCase.cs",
+              "RelativeToolTip": "UseCases\\CategoriesUseCases\\ViewSelectedCategoryUseCase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T06:03:26.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\UseCases\\DataStorePluginInterfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "UseCases\\DataStorePluginInterfaces\\ICategoryRepository.cs",
+              "ToolTip": "E:\\C#\\MVCCourse\\UseCases\\DataStorePluginInterfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "UseCases\\DataStorePluginInterfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T06:00:51.605Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ViewCategoriesUseCase.cs",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\UseCases\\CategoriesUseCases\\ViewCategoriesUseCase.cs",
+              "RelativeDocumentMoniker": "UseCases\\CategoriesUseCases\\ViewCategoriesUseCase.cs",
+              "ToolTip": "E:\\C#\\MVCCourse\\UseCases\\CategoriesUseCases\\ViewCategoriesUseCase.cs",
+              "RelativeToolTip": "UseCases\\CategoriesUseCases\\ViewCategoriesUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:48:36.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\CoreBusiness\\Transaction.cs",
+              "RelativeDocumentMoniker": "CoreBusiness\\Transaction.cs",
+              "ToolTip": "E:\\C#\\MVCCourse\\CoreBusiness\\Transaction.cs",
+              "RelativeToolTip": "CoreBusiness\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:45:52.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\CoreBusiness\\Product.cs",
+              "RelativeDocumentMoniker": "CoreBusiness\\Product.cs",
+              "ToolTip": "E:\\C#\\MVCCourse\\CoreBusiness\\Product.cs",
+              "RelativeToolTip": "CoreBusiness\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:45:41.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\CoreBusiness\\Category.cs",
+              "RelativeDocumentMoniker": "CoreBusiness\\Category.cs",
+              "ToolTip": "E:\\C#\\MVCCourse\\CoreBusiness\\Category.cs",
+              "RelativeToolTip": "CoreBusiness\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:45:14.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "_SellProduct.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Sales\\_SellProduct.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Sales\\_SellProduct.cshtml",
@@ -170,12 +335,11 @@
               "RelativeToolTip": "WebApp\\Views\\Sales\\_SellProduct.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T14:25:09.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T14:25:09.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Sales\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Sales\\Index.cshtml",
@@ -183,12 +347,11 @@
               "RelativeToolTip": "WebApp\\Views\\Sales\\Index.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T09:12:04.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T09:12:04.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "Default.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Shared\\Components\\Transactions\\Default.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\Components\\Transactions\\Default.cshtml",
@@ -196,12 +359,11 @@
               "RelativeToolTip": "WebApp\\Views\\Shared\\Components\\Transactions\\Default.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T06:56:43.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T06:56:43.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "TransactionsController.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Controllers\\TransactionsController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\TransactionsController.cs",
@@ -209,12 +371,11 @@
               "RelativeToolTip": "WebApp\\Controllers\\TransactionsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:03:27.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T14:03:27.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
@@ -222,25 +383,23 @@
               "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-28T06:10:46.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T06:10:46.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Transactions\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Transactions\\Index.cshtml",
               "ToolTip": "E:\\C#\\MVCCourse\\WebApp\\Views\\Transactions\\Index.cshtml",
               "RelativeToolTip": "WebApp\\Views\\Transactions\\Index.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T14:04:23.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T14:04:23.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "site.css",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\site.css",
@@ -248,12 +407,23 @@
               "RelativeToolTip": "WebApp\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-24T13:48:09.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T13:48:09.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\SalesController.cs",
+              "ToolTip": "E:\\C#\\MVCCourse\\WebApp\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:11:27.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "SalesViewModel_EnsureProperQuantity.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\ViewModels\\Validations\\SalesViewModel_EnsureProperQuantity.cs",
               "RelativeDocumentMoniker": "WebApp\\ViewModels\\Validations\\SalesViewModel_EnsureProperQuantity.cs",
@@ -261,12 +431,11 @@
               "RelativeToolTip": "WebApp\\ViewModels\\Validations\\SalesViewModel_EnsureProperQuantity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T05:13:49.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T05:13:49.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "TransactionsViewModel.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\ViewModels\\TransactionsViewModel.cs",
               "RelativeDocumentMoniker": "WebApp\\ViewModels\\TransactionsViewModel.cs",
@@ -274,12 +443,11 @@
               "RelativeToolTip": "WebApp\\ViewModels\\TransactionsViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T13:58:33.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T13:58:33.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "TransactionsRepository.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Models\\TransactionsRepository.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\TransactionsRepository.cs",
@@ -287,12 +455,11 @@
               "RelativeToolTip": "WebApp\\Models\\TransactionsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T06:01:21.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T06:01:21.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "Transaction.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\Transaction.cs",
@@ -300,25 +467,11 @@
               "RelativeToolTip": "WebApp\\Models\\Transaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswAUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T05:38:27.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T05:38:27.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SalesController.cs",
-              "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Controllers\\SalesController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\SalesController.cs",
-              "ToolTip": "E:\\C#\\MVCCourse\\WebApp\\Controllers\\SalesController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\SalesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:11:27.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Products\\Index.cshtml",
@@ -326,12 +479,11 @@
               "RelativeToolTip": "WebApp\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T13:28:17.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T13:28:17.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "TransactionsViewComponent.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\ViewComponents\\TransactionsViewComponent.cs",
               "RelativeDocumentMoniker": "WebApp\\ViewComponents\\TransactionsViewComponent.cs",
@@ -343,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\Product.cs",
@@ -355,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\ProductsController.cs",
@@ -367,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\ViewModels\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "WebApp\\ViewModels\\ProductViewModel.cs",
@@ -379,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "SalesViewModel.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\ViewModels\\SalesViewModel.cs",
               "RelativeDocumentMoniker": "WebApp\\ViewModels\\SalesViewModel.cs",
@@ -391,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "ProductsRepository.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Models\\ProductsRepository.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\ProductsRepository.cs",
@@ -403,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "_Products.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Products\\_Products.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Products\\_Products.cshtml",
@@ -415,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "CategoriesRepository.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Models\\CategoriesRepository.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\CategoriesRepository.cs",
@@ -427,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "_Product.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Products\\_Product.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Products\\_Product.cshtml",
@@ -439,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Products\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Products\\Edit.cshtml",
@@ -451,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\_ViewImports.cshtml",
@@ -463,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\_ViewStart.cshtml",
@@ -475,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "Category.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Models\\Category.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\Category.cs",
@@ -487,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\HomeController.cs",
@@ -499,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Program.cs",
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
@@ -511,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApp\\appsettings.Development.json",
@@ -523,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 39,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Categories\\Index.cshtml",
@@ -535,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 40,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\CategoriesController.cs",
@@ -547,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 41,
               "Title": "Add.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Products\\Add.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Products\\Add.cshtml",
@@ -559,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 42,
               "Title": "_Category.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Categories\\_Category.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Categories\\_Category.cshtml",
@@ -571,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Categories\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Categories\\Edit.cshtml",
@@ -583,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 44,
               "Title": "Add.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Categories\\Add.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Categories\\Add.cshtml",
@@ -595,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\C#\\MVCCourse\\WebApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
