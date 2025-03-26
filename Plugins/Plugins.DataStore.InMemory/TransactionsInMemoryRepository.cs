@@ -1,10 +1,18 @@
-﻿namespace WebApp.Models
-{
-    public static class TransactionsRepository
-    {
-        private static List<Transaction> transactions = new List<Transaction>();
+﻿using CoreBusiness;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using UseCases.DataStorePluginInterfaces;
 
-        public static IEnumerable<Transaction> GetByDayAndCashier(string cashierName, DateTime date)
+namespace Plugins.DataStore.InMemory
+{
+    public class TransactionsInMemoryRepository : ITransactionRepository
+    {
+        private  List<Transaction> transactions = new List<Transaction>();
+
+        public  IEnumerable<Transaction> GetByDayAndCashier(string cashierName, DateTime date)
         {
             if (string.IsNullOrWhiteSpace(cashierName))
                 return transactions.Where(x => x.TimeStamp.Date == date.Date);
@@ -14,7 +22,7 @@
                     x.TimeStamp.Date == date.Date);
         }
 
-        public static IEnumerable<Transaction> Search(string cashierName, DateTime startDate, DateTime endDate)
+        public  IEnumerable<Transaction> Search(string cashierName, DateTime startDate, DateTime endDate)
         {
             if (string.IsNullOrWhiteSpace(cashierName))
                 return transactions.Where(x => x.TimeStamp >= startDate.Date && x.TimeStamp <= endDate.Date.AddDays(1).Date);
@@ -24,7 +32,7 @@
                     x.TimeStamp >= startDate.Date && x.TimeStamp <= endDate.Date.AddDays(1).Date);
         }
 
-        public static void Add(string cashierName, int productId, string productName, double price, int beforeQty, int soldQty)
+        public  void Add(string cashierName, int productId, string productName, double price, int beforeQty, int soldQty)
         {
             var transaction = new Transaction
             {

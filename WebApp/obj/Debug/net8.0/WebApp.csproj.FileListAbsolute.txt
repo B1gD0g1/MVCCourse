@@ -31,3 +31,11 @@ E:\C#\MVCCourse\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cache
 E:\C#\MVCCourse\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cs
 E:\C#\MVCCourse\WebApp\bin\Debug\net8.0\WebApp.staticwebassets.runtime.json
 E:\C#\MVCCourse\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json
+E:\C#\MVCCourse\WebApp\bin\Debug\net8.0\CoreBusiness.dll
+E:\C#\MVCCourse\WebApp\bin\Debug\net8.0\Plugins.DataStore.InMemory.dll
+E:\C#\MVCCourse\WebApp\bin\Debug\net8.0\UseCases.dll
+E:\C#\MVCCourse\WebApp\bin\Debug\net8.0\CoreBusiness.pdb
+E:\C#\MVCCourse\WebApp\bin\Debug\net8.0\Plugins.DataStore.InMemory.pdb
+E:\C#\MVCCourse\WebApp\bin\Debug\net8.0\UseCases.pdb
+E:\C#\MVCCourse\WebApp\obj\Debug\net8.0\WebApp.csproj.AssemblyReference.cache
+E:\C#\MVCCourse\WebApp\obj\Debug\net8.0\WebApp.csproj.Up2Date

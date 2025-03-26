@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using WebApp.Models;
+using CoreBusiness;
+using UseCases;
 
 namespace WebApp.ViewModels.Validations
 {
@@ -17,17 +18,23 @@ namespace WebApp.ViewModels.Validations
                 }
                 else
                 {
-                    var product = ProductsRepository.GetProductsById(salesViewModel.SelectedProductId);
-                    if (product != null)
+                    var getProductByIdUseCase = validationContext.GetService(typeof(IViewSelectedProductUseCase)) as IViewSelectedProductUseCase;
+
+                    if (getProductByIdUseCase != null)
                     {
-                        if (product.Quantity < salesViewModel.QuantityToSell)
+                        var product = getProductByIdUseCase.Execute(salesViewModel.SelectedProductId);
+
+                        if (product != null)
                         {
-                            return new ValidationResult($"{product.Name} 只剩下 {product.Quantity}，数量不足");
+                            if (product.Quantity < salesViewModel.QuantityToSell)
+                            {
+                                return new ValidationResult($"{product.Name} 只剩下 {product.Quantity}，数量不足");
+                            }
                         }
-                    }
-                    else
-                    {
-                        return new ValidationResult("选择的产品不存在。");
+                        else
+                        {
+                            return new ValidationResult("选择的产品不存在。");
+                        }
                     }
                 }
             }

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreBusiness", "CoreBusines
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases", "UseCases\UseCases.csproj", "{FC59526E-1A47-40F2-931D-9601809BAB58}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins.DataStore.InMemory", "Plugins\Plugins.DataStore.InMemory\Plugins.DataStore.InMemory.csproj", "{96A55CDC-A6E6-4558-969F-11EF83E96BE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{FC59526E-1A47-40F2-931D-9601809BAB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC59526E-1A47-40F2-931D-9601809BAB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC59526E-1A47-40F2-931D-9601809BAB58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A55CDC-A6E6-4558-969F-11EF83E96BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A55CDC-A6E6-4558-969F-11EF83E96BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A55CDC-A6E6-4558-969F-11EF83E96BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A55CDC-A6E6-4558-969F-11EF83E96BE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96A55CDC-A6E6-4558-969F-11EF83E96BE4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F87DEFF-2AC1-4117-AEBE-F27655EFC96F}
